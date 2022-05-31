@@ -22,9 +22,7 @@ namespace ConsultarCEPS
             if (string.IsNullOrEmpty(this.textBoxCep.Text))
             {
                 MessageBox.Show("Informe um CEP válido!!", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
-
                 LimparCamposFrm();
-
                 return;
             }
 
